@@ -23,7 +23,7 @@ jobs:
       referenceType: ${{ github.ref_type }}
       repository: ${{ github.repository }}
       owner: ${{ github.repository_owner }}
-      sonarCloudProjectName: SkylineCommunications_SLC-AS-DMSSanityChecks
+      sonarCloudProjectName: SkylineCommunications_SLC-AS-IDP-CheckElementProperties
     secrets:
       # The API-key: generated in the DCP Admin app (https://admin.dataminer.services/) as authentication for a certain DataMiner System.
       api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
