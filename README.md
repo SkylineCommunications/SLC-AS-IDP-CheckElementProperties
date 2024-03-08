@@ -1,0 +1,1 @@
+# SLC-AS-IDP-CheckElementProperties
